@@ -1,4 +1,4 @@
-# High Availability with-Mysql
+# High Availability with Mysql
 
 
 <div align="center">
