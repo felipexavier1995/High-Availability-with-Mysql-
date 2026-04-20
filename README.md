@@ -1,4 +1,6 @@
-# High Availability with Mysql
+<div align="center">
+	<h1>High Availability with Mysql</h1>
+</div>
 
 
 <div align="center">
@@ -17,3 +19,7 @@ Hi everybody,it's a document about High Availability with Mysql. The object with
   	<li> 2 networking places (NAT and Host-only Adapter)</li>
 	<li> System operation was Ubuntu 24</li>	
 </ol>
+
+<p>
+  <img src="https://github.com/felipexavier1995/High-Availability-with-Mysql-/blob/main/tumble_dba.png" alt="tumble_dba">
+</p>
