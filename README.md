@@ -21,5 +21,5 @@ Hi everybody,it's a document about High Availability with Mysql. The object with
 </ol>
 
 <p>
-  <img src="https://github.com/felipexavier1995/High-Availability-with-Mysql-/tree/main/images/tumble_dba.png" alt="tumble_dba">
+  <img src="https://github.com/felipexavier1995/High-Availability-with-Mysql-/tree/main/images/tumble_dba.png" alt="tumble_dba.png">
 </p>
