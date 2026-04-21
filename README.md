@@ -26,3 +26,8 @@ Hi everybody,it's a document about High Availability with Mysql. The object with
 
 With its lab we can understand and set up a little function that we can call “mirror databases” and a function of security of data that all DBA’s need to develop.
 
+<div align="center">
+	<h2> With its lab we can understand and set up a little function that we can call “mirror databases” and a function of security of data that all DBA’s need to develop. </h2>
+</div>
+
+#
