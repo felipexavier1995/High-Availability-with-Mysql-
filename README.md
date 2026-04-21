@@ -12,7 +12,9 @@
 
 #
 
-Hi everybody,it's a document about High Availability with Mysql. The object with this file is to deepen my knowledge in Database and Infrastructure. I made an environment with two virtual machines with Linux. During the project, I was responsible for:
+Hi everybody,it's a document about High Availability with Mysql. The object with this file is to deepen my knowledge in Database and Infrastructure. I made an environment with two virtual machines with Linux. During the project. With its lab we can understand and set up a little function that we can call “mirror databases” and a function of security of data that all DBA’s need to develop.
+
+I was responsible for:
 <ol>
 	<li> 1GB memory ram</li>
   	<li> 30GB storing</li>
