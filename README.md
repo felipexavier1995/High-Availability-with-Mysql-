@@ -37,15 +37,23 @@ With its lab we can understand and set up a little function that we can call “
 </div>
 
 After installation SO, We need somethings adjustments:
-
 <ol>
-	<li> First alteration is update SO with command:</li>
-			sudo apt update
+	<li> First alteration is update SO with command: </li>
+		sudo apt update
   	<li> After update, we need install Mysql with command:</li>
-			sudo apt install mysql-server -y
-  	<li> Check all service of mysql with command:</li>
-			sudo systemctl status mysql
-		<p align="center">
-  			<img  src="https://github.com/felipexavier1995/High-Availability-with-Mysql-/blob/main/images/doc01.png" alt="doc01.png">
-		</p>
+		sudo apt install mysql-server -y
+  	<li> Check all service of mysql with command:</li>	
+		sudo systemctl status mysql 
 </ol>
+<div align="center">
+	<p>
+  		<img src="https://github.com/felipexavier1995/High-Availability-with-Mysql-/blob/main/images/doc02.png" alt="doc02.png">
+	</p>
+</div>
+
+
+
+
+
+	
+
