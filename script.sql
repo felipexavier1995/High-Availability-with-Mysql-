@@ -21,3 +21,9 @@ CREATE USER 'repl'@'%' IDENTIFIED BY 'senha';
 GRANT REPLICATION SLAVE ON *.* TO 'repl'@'%';
 FLUSH PRIVILEGES;
 
+
+-- Inside on mysql, command to show the file and position
+show master status;
+
+-- Command to view 
+vi /etc/mysql/mysql.conf.d/mysqld.cnf
