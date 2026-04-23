@@ -30,11 +30,7 @@ With its lab we can understand and set up a little function that we can call “
 	<h2> With its lab we can understand and set up a little function that we can call “mirror databases” and a function of security of data that all DBA’s need to develop. </h2>
 </div>
 
-<div align="center">
-	<p>
-  		<img src="https://github.com/felipexavier1995/High-Availability-with-Mysql-/blob/main/images/art.png" alt="art.png">
-	</p>
-</div>
+#
 
 After installation SO, We need somethings adjustments:
 <ol>
@@ -50,6 +46,36 @@ After installation SO, We need somethings adjustments:
   		<img src="https://github.com/felipexavier1995/High-Availability-with-Mysql-/blob/main/images/doc02.png" alt="doc02.png">
 	</p>
 </div>
+
+and now, we go to the settings of file mysqld.cnf in each VM.
+
+The VMs are located with the:
+
+<ul>
+  <li>Primary	IP: 192.168.56.107</li>
+  <li>Replica	IP: 192.168.56.108</li>
+</ul>
+
+<div align="center">
+	<p>
+  		<img src="https://github.com/felipexavier1995/High-Availability-with-Mysql-/blob/main/images/art.png" alt="art.png">
+	</p>
+</div>
+
+On the server primary we go configure of file mysqld.cnf with following parameters
+vi /etc/mysql/mysql.conf.d/mysqld.cnf
+
+<div align="center">
+	<p>
+  		<img src="https://github.com/felipexavier1995/High-Availability-with-Mysql-/blob/main/images/doc03.png" alt="doc03.png">
+	</p>
+</div>
+
+Now, on the replication server, we'll create a user using the command and then grant permissions to the new user.
+
+
+
+
 
 
 
