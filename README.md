@@ -71,7 +71,17 @@ vi /etc/mysql/mysql.conf.d/mysqld.cnf
 	</p>
 </div>
 
-Now, on the replication server, we'll create a user using the command and then grant permissions to the new user.
+Now, on the replication server, we wll create a user using the command and then grant permissions to the new user.
+#
+CREATE USER 'repl'@'%' IDENTIFIED BY 'password';
+GRANT REPLICATION SLAVE ON *.* TO 'repl'@'%';
+FLUSH PRIVILEGES;
+#
+PS: We need switch the name 'password' for anything password.
+
+
+Still on the replication server, let's check the replication point using the command.
+show master status;
 
 
 
