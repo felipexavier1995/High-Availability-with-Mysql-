@@ -27,3 +27,9 @@ show master status;
 
 -- Command to view the file cnf, where we can see somethings parameters 
 vi /etc/mysql/mysql.conf.d/mysqld.cnf
+
+--- script for creation a new database.
+create database test_replica;
+
+--- script for show all databases.
+show database;
