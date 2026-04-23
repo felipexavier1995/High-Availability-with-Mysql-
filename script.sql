@@ -25,5 +25,5 @@ FLUSH PRIVILEGES;
 -- Inside on mysql, command to show the file and position
 show master status;
 
--- Command to view 
+-- Command to view the file cnf, where we can see somethings parameters 
 vi /etc/mysql/mysql.conf.d/mysqld.cnf
