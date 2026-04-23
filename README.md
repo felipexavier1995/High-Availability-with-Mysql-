@@ -89,9 +89,38 @@ show master status;
 </div>
 
 <p>The number of positions and files are important to be the same on the primary server.</p>
+<p>On the replica server we are going to settings with the following parameters.</p>
 
+vi /etc/mysql/mysql.conf.d/mysqld.cnf
+<div align="center">
+	<p>
+  		<img src="https://github.com/felipexavier1995/High-Availability-with-Mysql-/blob/main/images/doc05.png" alt="doc05.png">
+	</p>
+</div>
 
+<p>The line of relay-log is the one that communicates with the primary server and the server-id is identified if it is primary or replication
+</p>
 
+Next, the configuration of the replica within mysql we need to configure the parameters.
+#
+<p>CHANGE MASTER TO</p>
+<p>MASTER_HOST='IP_DO_PRIMARY',         -> IP of primary server</p>
+<p>MASTER_USER='repl',		           -> user maked</p>
+<p>MASTER_PASSWORD='password',	           -> password that we set</p>
+<p>MASTER_LOG_FILE='mysql-bin.00000x',   -> This number need to be alterado confirme o arquivo no servidor primary</p>
+<p>MASTER_LOG_POS=157;		           -> This number needs to be the same on both servers</p>
+#
+<p>Now, we can test if we find working, firstly we are going to create a database on the primary server with command.</p>
+create database test_replica;
+
+<p>After, We can check a creation with command.</p>
+show databases;
+
+<div align="center">
+	<p>
+  		<img src="https://github.com/felipexavier1995/High-Availability-with-Mysql-/blob/main/images/doc06.png" alt="doc06.png">
+	</p>
+</div>
 
 
 
