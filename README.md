@@ -80,9 +80,15 @@ FLUSH PRIVILEGES;
 PS: We need switch the name 'password' for anything password.
 
 
-Still on the replication server, let's check the replication point using the command.
+<p>Still on the replication server, let's check the replication point using the command.</p>
 show master status;
+<div align="center">
+	<p>
+  		<img src="https://github.com/felipexavier1995/High-Availability-with-Mysql-/blob/main/images/doc04.png" alt="doc04.png">
+	</p>
+</div>
 
+<p>The number of positions and files are important to be the same on the primary server.</p>
 
 
 
